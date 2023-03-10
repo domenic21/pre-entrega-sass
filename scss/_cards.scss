@@ -1,0 +1,20 @@
+.img-container {
+	width: 40vh;
+	height: 300px;
+	object-fit: contain;
+	align-items: center;
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	flex-basis: 100%;
+	overflow: hidden;
+	background-position: 100%;
+	&:hover {
+		transition: 1s;
+		opacity: 0.5;
+	}
+}
+.card {
+	margin-top: 10rem;
+	margin-top: 5rem;}
