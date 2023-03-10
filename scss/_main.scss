@@ -1,0 +1,34 @@
+.main {
+	background: url(../img/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: 100%;
+	p {
+		font-size: 2rem;
+	}
+}
+.text {
+	padding-top: 3rem;
+}
+.btn {
+	height: 50px;
+	width: 200px;
+	color: $color_3;
+}
+.details {
+	h1 {
+		font-weight: 800;
+		font-size: 2rem;
+		color: $color_2;
+		align-items: center;
+		justify-content: center;
+		padding-left: 30%;
+	}
+	p {
+		font-size: 2rem;
+		color: $color_2;
+	}
+}
+h3 {
+	font-size: 1.5rem;
+}
