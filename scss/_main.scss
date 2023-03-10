@@ -1,10 +1,17 @@
+@mixin parrafo-size{
+	font-size: 2rem;
+
+}
+
+
 .main {
 	background: url(../assets/img/background.jpg);
 	background-size: cover;
 	height: 100vh;
 	background-position: 100%;
 	p {
-		font-size: 2rem;
+		@include parrafo-size;
+		
 	}
 }
 .text {
@@ -25,7 +32,7 @@
 		padding-left: 30%;
 	}
 	p {
-		font-size: 2rem;
+		@include parrafo-size;
 		color: $color_2;
 	}
 }

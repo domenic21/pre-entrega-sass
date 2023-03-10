@@ -1,3 +1,7 @@
+@mixin weight{
+	font-weight: 900;
+
+}
 .footer {
 	background-color: $background-color_1;
 	color: $color_2;
@@ -8,11 +12,11 @@
 }
 footer {
 	h4 {
-		font-weight: 900;
+		@include weight;
 	}
 }
 h5 {
-	font-weight: 900;
+	@include weight;
 }
 .link {
 	cursor: pointer;

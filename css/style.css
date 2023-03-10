@@ -121,6 +121,29 @@ h3 {
   user-select: none;
 }
 
+.img-container {
+  width: 50vh;
+  height: 300px;
+  object-fit: cover;
+  align-items: center;
+  opacity: 1;
+  display: flex;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  background-size: cover;
+  overflow: hidden;
+  background-position: 100%;
+}
+
+.card {
+  margin-top: 8rem;
+}
+.card:hover {
+  transition: 1s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .container-about h1 {
   color: rgb(214, 84, 19);
 }
